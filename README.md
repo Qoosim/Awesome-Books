@@ -24,16 +24,16 @@ Used JavaScript objects and arrays
 To get a local copy up and running follow these simple example steps.
 
 - Clone the repository using:
-- ``shell
--    git clone git@github.com:Cathella/Awesome-Books.git
--    `` 
--    - Navigate to the Awesome-Bookd with this command ```cd Awesome-Books``
--
--    - Install Visual Studio extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
--
--    - Enable Live Server
--
--    - Add and remove Books!`
+ ``
+    git clone git@github.com:Qoosim/Awesome-Books.git 
+`` 
+- Navigate to the Awesome-Bookd with this command ``cd Awesome-Books``
+
+- Install Visual Studio extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+- Enable Live Server
+
+- Add and remove Books!`
 
 ## Author
 
