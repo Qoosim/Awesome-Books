@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
  ``
     git clone git@github.com:Qoosim/Awesome-Books.git 
 `` 
-- Navigate to the Awesome-Bookd with this command ``cd Awesome-Books``
+- Navigate to the Awesome-Books with this command ``cd Awesome-Books``
 
 - Install Visual Studio extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
