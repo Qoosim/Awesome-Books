@@ -1,59 +1,47 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome Book
 
-> One paragraph statement about the project.
+> This is a project that allows user to add/remove books from both localStorage and browser memory 
 
-![screenshot](./app_screenshot.png)
+![screenshot](./awesome_books.jpeg)
 
-Additional description about the project and its features.
+Used JavaScript objects and arrays
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML && CSS
+- JavaScript
+- Linters
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/Qoosim/Awesome-Books/basic-html/index.html) :point_left:
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+- Clone the repository using:
+- ``shell
+-    git clone git@github.com:Cathella/Awesome-Books.git
+-    `` 
+-    - Navigate to the Awesome-Bookd with this command ```cd Awesome-Books``
+-
+-    - Install Visual Studio extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+-
+-    - Enable Live Server
+-
+-    - Add and remove Books!`
 
-### Setup
+## Author
 
-### Install
+👤 **Qoosim AbdulGhaniyy**
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Qoosim)
+- Twitter: [@twitterhandle](https://twitter.com/qoosim_ayinde)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/qoosim)
 
 ## 🤝 Contributing
 
