@@ -30,7 +30,7 @@ const createBook = ({ title, author, id }) => {
   );
 
   div.innerHTML = `
-    <h4 class="col-sm-10 text-start">"${title}" by ${author}</h4>
+    <h4 class="col-sm-10 text-start">'${title}' by ${author}</h4>
     <button class=
     "col-sm-2 btn-danger rounded" 
     id="${id}" 
