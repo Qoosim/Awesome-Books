@@ -40,5 +40,6 @@ class Library { // eslint-disable-line no-unused-vars
     });
     localStorage.setItem('books', JSON.stringify(this.books));
     elem.parentElement.remove();
+    document.querySelector('.output').style.display = this.books.length === 0 ? 'none' : 'block';
   };
 }
