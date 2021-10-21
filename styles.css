@@ -5,7 +5,7 @@
 }
 
 main {
-  width: 30%;
+  width: 40%;
   margin: 0 auto;
 }
 
@@ -14,4 +14,17 @@ h2 {
   font-weight: bold;
   text-align: center;
   margin: 20px 0;
+}
+
+.output {
+  width: 100%;
+}
+
+.custom-row:nth-child(odd) {
+  background: rgb(235, 230, 230);
+}
+
+form {
+  width: 60%;
+  margin: 10% auto;
 }
