@@ -7,19 +7,46 @@
   <link rel="stylesheet" href="styles.css">
   <title>Awesome Books</title>
 </head>
-<body>
+<body class="container">
+  <header>
+    <nav class="navbar border-bottom">
+      <h3 class="p-3 cursor" id='brand'>Awesome Books</h3>
+      <ul class="nav nav-tabs custom-nav-tabs p-3 fs-5">
+        <li class="nav-item nav-link cursor active" id="listItem">List</li>
+        <li class="nav-item nav-link cursor" id="newForm">Add new</li>
+        <li class="nav-item nav-link cursor" id="contactInfo">Contact</li>
+      </ul>
+    </nav>
+  </header>
   <main>
-    <h2>Awesome Books</h2>
-    <div class="output border border-2"></div>
-    <hr class="w-25 mx-auto border border-2 border-dark mt-4" />
-    <form autocomplete="off">
-      <h3 class="text-center">Add a new book</h3>
-      <label for="title" class="form-label fw-bold">Title</label>
-      <input type="text" class="form-control" id="title" name="title">
-      <label for="author" class="form-label fw-bold">Author</label>
-      <input type="text" class="form-control" id="author" name="author">
-      <button class="btn btn-primary btnRemove mt-2 float-end" name="btn">Add New</button>
-    </form>
+    <p id="dateAndTime"> date and dateAndTime</p>
+    <section class="theList mx-auto text-center">
+      <h1 class="fw-bolder mb-5 mt-5">Awesome Books</h1>
+      <div class="booklist border border-2"></div>
+      <hr class="w-25 mx-auto border border-danger rounded border-3 hidden" />
+    </section>
+    <section class="theForm hidden">
+      <form class="w-50 mx-auto">
+        <h3 class="fw-bold mb-5 mt-5 text-center">Add a new book</h3>
+        <input
+          type="text"
+          class="form-control mb-3"
+          name="title"
+          id="title"
+          placeholder="Title"
+          required
+        />
+        <input
+          type="text"
+          class="form-control mb-3"
+          name="author"
+          id="author"
+          placeholder="Author"
+          required
+        />
+        <button type="submit" class="btn btn-primary btnAdd float-end">Add</button>
+      </form>
+    </section>
   </main>
 
   <script src="book.js" defer></script>
