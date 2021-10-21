@@ -5,6 +5,13 @@ const titleInput = form.title;
 const authorInput = form.author;
 const btnAdd = form.btn;
 const output = document.querySelector('.output');
+const dateAndTime = document.getElementById('dateAndTime');
+
+const { DateTime } = luxon; // eslint-disable-line no-undef
+dt = DateTime.utc().toLocal(); // eslint-disable-line no-undef
+const time = dt.toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS); // eslint-disable-line no-undef
+
+dateAndTime.textContent = time;
 
 const createBook = ({ title, author, id }) => {
   const div = document.createElement('div');
