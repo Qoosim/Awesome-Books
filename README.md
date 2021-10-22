@@ -4,9 +4,7 @@
 
 > This is a project that allows user to add/remove books from both localStorage and browser memory 
 
-![screenshot](./images/awesome_books_list.jpeg)
-![screenshot](./images/awesome_books_add.jpeg)
-![screenshot](./images/awesome_books_contact.jpeg)
+![screenshot](./images/awesome_books.jpeg)
 
 Used JavaScript objects and arrays
 
