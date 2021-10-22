@@ -1,5 +1,10 @@
 # .gitignore
 node_modules/
 *.swp
+
 *.swo
 *.swn
+
+*.swn
+*.swo
+
