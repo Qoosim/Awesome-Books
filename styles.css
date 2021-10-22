@@ -4,29 +4,14 @@
   box-sizing: border-box;
 }
 
-.hidden {
-  display: none;
+main {
+  width: 30%;
+  margin: 0 auto;
 }
 
-.cursor {
-  cursor: pointer;
-}
-
-.custom-nav-tabs {
-  border: none !important;
-}
-
-#dateAndTime {
-  text-align: end;
-  padding: 10px;
+h2 {
+  font-size: 30px;
   font-weight: bold;
-}
-
-.custom-footer {
-  display: flex;
-  margin: 0  9vw;
-}
-
-.custom-row:nth-child(odd) {
-  background-color: rgb(235, 230, 230);
+  text-align: center;
+  margin: 20px 0;
 }
