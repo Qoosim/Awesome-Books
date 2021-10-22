@@ -1,4 +1,3 @@
-
 const form = document.querySelector('form');
 const titleInput = form.title;
 const authorInput = form.author;
