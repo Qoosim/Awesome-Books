@@ -18,8 +18,77 @@
       <input type="text" class="form-control" id="author" name="author">
       <button class="btn btn-primary btnRemove mt-3" name="btn">Add New</button>
     </form>
-  </main>
 
+<body class="container">
+  <header>
+    <nav class="navbar border-bottom">
+      <h3 class="p-3 cursor" id='brand'>Awesome Books</h3>
+      <ul class="nav nav-tabs custom-nav-tabs p-3 fs-5">
+        <li class="nav-item nav-link cursor active" id="listItem">List</li>
+        <li class="nav-item nav-link cursor" id="newForm">Add new</li>
+        <li class="nav-item nav-link cursor" id="contactInfo">Contact</li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <p id="dateAndTime">date and dateAndTime</p>
+    <section class="theList mx-auto text-center">
+      <h1 class="fw-bolder mb-5 mt-5">Awesome Books</h1>
+      <div class="w-75 mx-auto output border border-2"></div>
+      <hr class="w-25 mx-auto border border-danger rounded border-3 hidden" />
+    </section>
+    <section class="theForm hidden">
+      <form class="w-50 mx-auto" autocomplete="off">
+        <h3 class="fw-bold mb-4 mt-5 text-center">Add a new book</h3>
+        <input
+          type="text"
+          class="form-control mb-3"
+          name="title"
+          id="title"
+          placeholder="Title"
+          required
+        />
+        <input
+          type="text"
+          class="form-control mb-3"
+          name="author"
+          id="author"
+          placeholder="Author"
+          required
+        />
+        <button 
+          type="submit" 
+          class="btn btn-primary addBtn float-end">
+          Add
+        </button>
+      </form>
+    </section>
+    <section class="text-left w-50 mx-auto theContact hidden">
+      <h2 class="fw-bolder mb-5 mt-5 text-center">Contact information</h2>
+      <div>Do you have any questions or you just want to say 'Hello'?<br>
+         You can react out to us:
+         <ul class="list">
+           <li>Our e-mail: our@gmail.com</li>
+           <li>Our phone numbers: +999-08080808, +555-897654</li>
+           <li>Our address: Flat 001, Freedom city.</li>
+         </ul>
+      </div>
+    </section>
+  </main>
+  <footer
+    class="border-top fixed-bottom custom-footer">
+      <small class="text-muted p-3">
+        Copyright &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Qoosim Abdulghaniyy <br/>
+        All Rights Reserved</small>
+  </footer>
+
+  <script src="book.js" defer></script>
+  <script src="library.js" defer></script>
   <script src="script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@2.0.2/build/global/luxon.min.js"></script>
 </body>
 </html>

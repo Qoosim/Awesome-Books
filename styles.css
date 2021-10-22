@@ -4,14 +4,29 @@
   box-sizing: border-box;
 }
 
-main {
-  width: 30%;
-  margin: 0 auto;
+.hidden {
+  display: none;
 }
 
-h2 {
-  font-size: 30px;
+.cursor {
+  cursor: pointer;
+}
+
+.custom-nav-tabs {
+  border: none !important;
+}
+
+#dateAndTime {
+  text-align: end;
+  padding: 10px;
   font-weight: bold;
-  text-align: center;
-  margin: 20px 0;
+}
+
+.custom-footer {
+  display: flex;
+  margin: 0  9vw;
+}
+
+.custom-row:nth-child(odd) {
+  background-color: rgb(235, 230, 230);
 }
