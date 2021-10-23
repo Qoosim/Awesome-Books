@@ -4,19 +4,6 @@ const form = document.querySelector('form');
 const titleInput = form.title;
 const authorInput = form.author;
 const btnAdd = form.btn;
-const output = document.querySelector('.output');
-
-const createBook = ({ title, author, id }) => {
-  const div = document.createElement('div');
-
-  div.innerHTML = `
-    <h3>${title}</h3>
-    <h3>${author}</h3>
-    <button class="delete btnDelete p-1 rounded" id="${id}" onclick="library.removeBook(this)">Remove</button>
-    <hr>
-    `;
-  output.appendChild(div);
-};
 
 // Add event listener to the add button
 btnAdd.addEventListener('click', (event) => {
@@ -29,7 +16,7 @@ btnAdd.addEventListener('click', (event) => {
     new Date().getTime().toString(),
   );
 
-  createBook(newBook);
+  library.createBook(newBook);
   library.resetForm();
 });
 
