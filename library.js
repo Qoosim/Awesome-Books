@@ -9,25 +9,10 @@ class Library { // eslint-disable-line no-unused-vars
     return this.books;
   };
 
-  createBook = ({ title, author, id }) => {
-    const div = document.createElement('div');
-
-    div.innerHTML = `
-      <h3>${title}</h3>
-      <h3>${author}</h3>
-      <button class="delete btnDelete p-1 rounded" id="${id}">Remove</button>
-      <hr>
-      `;
-    document.querySelector('.output').appendChild(div);
-    document.getElementById(id).addEventListener('click', () => {
-      this.removeBook(document.getElementById(id));
-    });
-  };
-
   // Display all the books from the collection
   displayBooks = () => {
     this.books = this.getBooks();
-    this.books.forEach(this.createBook);
+    this.books.forEach(createBook); // eslint-disable-line no-undef
   };
 
   // Add book to the array of book objects
