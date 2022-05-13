@@ -13,6 +13,7 @@ const theForm = document.querySelector('.theForm');
 const theContact = document.querySelector('.theContact');
 const output = document.querySelector('.output');
 const dateAndTime = document.getElementById('dateAndTime');
+const success = document.querySelector('.success-msg');
 
 const { DateTime } = luxon; // eslint-disable-line no-undef
 dt = DateTime.utc().toLocal(); // eslint-disable-line no-undef
@@ -62,6 +63,13 @@ addBtn.addEventListener('click', (event) => {
     );
     createBook(newBook);
     library.resetForm();
+    success.textContent = 'Book added successfully!';
+    success.style.color = 'green';
+    success.style.textAlign = 'center';
+    success.style.opacity = 1;
+    setTimeout(() => {
+      success.style.opacity = 0;
+    }, 1000);
   }
 });
 
