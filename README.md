@@ -18,7 +18,7 @@ Used JavaScript objects and arrays
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Qoosim/Awesome-Books/basic-html/index.html) :point_left:
+[Live Demo Link](https://qoosim-awesome-books.netlify.app/) :point_left:
 
 
 ## Getting Started
