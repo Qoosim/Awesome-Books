@@ -2,36 +2,54 @@
 
 # Awesome Book
 
-> This is a project that allows user to add/remove books from both localStorage and browser memory 
+> In this project, I built a basic website that allows users to add or remove books from a list. I implemented that by using JavaScript objects, arrays, and local storage. I dynamically modified the DOM and added basic events.
+
+## Browser Display
 
 ![screenshot](./images/awesome_books_list.jpeg)
+
 ![screenshot](./images/awesome_books_add.jpeg)
+
 ![screenshot](./images/awesome_books_contact.jpeg)
 
-Used JavaScript objects and arrays
 
-## Built With
+
+## Technologies used
 
 - HTML && CSS
 - JavaScript
 - Linters
+- Git && Github
+- VSCode
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Qoosim/Awesome-Books/basic-html/index.html) :point_left:
+[Live Demo Link](https://qoosim-awesome-books.netlify.app/) :point_left:
 
 
 ## Getting Started
 
+### Prerequisites
+
+- IDE to edit and run the code (We use Visual Studio Code fire).
+- Git to versionning your work.
+
+### Install
+
 To get a local copy up and running follow these simple example steps.
 
 - Clone the repository using:
- ``
+ ```
     git clone git@github.com:Qoosim/Awesome-Books.git 
-`` 
-- Navigate to the Awesome-Books with this command ``cd Awesome-Books``
+```
+- Navigate to the Awesome-Books with this command 
+```
+   cd Awesome-Books
+```
 
 - Install Visual Studio extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+### Usage
 
 - Enable Live Server
 
